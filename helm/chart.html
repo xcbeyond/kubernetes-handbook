@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8">
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>概述 · Kubernetes Handbook - Kubernetes 实践手册</title>
+        <title>Helm Charts · Kubernetes Handbook - Kubernetes 实践手册</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="GitBook 3.2.3">
@@ -79,10 +79,10 @@
     <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="helm-introduction.html" />
+    <link rel="next" href="../faq/kube-apiserver-port-occupy.html" />
     
     
-    <link rel="prev" href="../" />
+    <link rel="prev" href="quickstart.html" />
     
 
     
@@ -164,7 +164,7 @@
         
         
     
-        <li class="chapter active" data-level="2.1" data-path="./">
+        <li class="chapter " data-level="2.1" data-path="./">
             
                 <a href="./">
             
@@ -209,7 +209,7 @@
             
         </li>
     
-        <li class="chapter " data-level="2.4" data-path="chart.html">
+        <li class="chapter active" data-level="2.4" data-path="chart.html">
             
                 <a href="chart.html">
             
@@ -276,7 +276,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >概述</a>
+        <a href=".." >Helm Charts</a>
     </h1>
 </div>
 
@@ -291,11 +291,9 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="&#x6982;&#x8FF0;">&#x6982;&#x8FF0;</h1>
-<p>&#x672C;&#x624B;&#x518C;&#x5173;&#x4E8E; Helm &#x7684;&#x5185;&#x5BB9;&#x662F;&#x53C2;&#x8003; <a href="https://docs.helm.sh/" target="_blank">https://docs.helm.sh/</a>&#xFF0C;&#x5E76;&#x7ED3;&#x5408;&#x4F5C;&#x8005;&#x5B9E;&#x9645;&#x5B9E;&#x8DF5;&#x8FDB;&#x884C;&#x7684;&#x5F52;&#x7EB3;&#x3001;&#x6574;&#x7406;&#x548C;&#x6C47;&#x603B;&#x800C;&#x6765;&#xFF0C;&#x8BA9; Helm &#x76F8;&#x5173;&#x77E5;&#x8BC6;&#x96C6;&#x4E2D;&#x5C55;&#x73B0;&#xFF0C;&#x4F5C;&#x4E3A;&#x4E2A;&#x4EBA;&#x4F7F;&#x7528;&#x7B14;&#x8BB0;&#x3001;&#x624B;&#x518C;&#x3002;&#x8BE5;&#x5185;&#x5BB9;&#x5C06;&#x4F1A;&#x4E0D;&#x65AD;&#x66F4;&#x65B0;&#x3001;&#x5B8C;&#x5584;&#xFF0C;&#x65E8;&#x5728;&#x4E3A; Helm &#x7B49;&#x4F7F;&#x7528;&#x3001;&#x5B66;&#x4E60;&#x8005;&#x63D0;&#x4F9B;&#x66F4;&#x5168;&#x9762;&#x3001;&#x66F4;&#x4FBF;&#x6377;&#x7684;&#x53C2;&#x8003;&#x3002;</p>
-<p>&#x672C;&#x624B;&#x518C;&#x662F;&#x57FA;&#x4E8E; Helm 3 &#x8FDB;&#x884C;&#x4ECB;&#x7ECD;&#xFF0C;&#x5EFA;&#x8BAE;&#x4F60;&#x4E5F;&#x9009;&#x62E9; Helm 3&#x3002;</p>
+                                <h1 id="helm-charts">Helm Charts</h1>
 <footer class="page-footer"><span class="copyright">Copyright &#xA9; <a href="https://xcbeyond.cn" target="_blank">xcbeyond.cn</a> 2021 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification"> Updated at 
-2021-11-07 00:23:24
+2021-11-24 17:20:55
 </span></footer>
                                 
                                 </section>
@@ -323,12 +321,12 @@
 
             
                 
-                <a href="../" class="navigation navigation-prev " aria-label="Previous page: 序言">
+                <a href="quickstart.html" class="navigation navigation-prev " aria-label="Previous page: 快速入门">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="helm-introduction.html" class="navigation navigation-next " aria-label="Next page: Helm 介绍">
+                <a href="../faq/kube-apiserver-port-occupy.html" class="navigation navigation-next " aria-label="Next page: kube-apiserver 6443 端口占用">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -339,7 +337,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"概述","level":"2.1","depth":1,"next":{"title":"Helm 介绍","level":"2.2","depth":1,"path":"helm/helm-introduction.md","ref":"helm/helm-introduction.md","articles":[]},"previous":{"title":"序言","level":"1.1","depth":1,"path":"README.md","ref":"README.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","codesnippet","splitter","page-toc-button","image-captions","lightbox","editlink","back-to-top-button","-lunr","-search","search-plus","github-buttons@2.1.0","theme-default","favicon@^0.0.2","tbfed-pagefooter@^0.0.1","-highlight","prism","prism-themes","copy-code-button","donate"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © <a href=https://xcbeyond.cn>xcbeyond.cn</a> 2021","modify_label":" Updated at ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"github":{"url":"https://github.com/xcbeyond/kubernetes-handbook"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/xcbeyond/kubernetes-handbook/blob/main/"},"splitter":{},"donate":{"alipay":"https://xcbeyond.cn/images/qrcode/alipay.png","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"https://xcbeyond.cn/images/qrcode/wechatpay.jpg","wechatText":"微信打赏"},"codesnippet":{},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"page-toc-button":{},"back-to-top-button":{},"prism-themes":{},"github-buttons":{"repo":"xcbeyond/kubernetes-handbook","types":["star"],"size":"small"},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"search-plus":{},"image-captions":{"caption":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","variable_name":"_pictures"}},"theme":"default","author":"xcbeyond","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"helm/helm-introduction.html#fig2.2.1","level":"2.2","list_caption":"Figure: Helm","alt":"Helm","nro":1,"url":"helm.svg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","label":"Helm","attributes":{},"skip":false,"key":"2.2.1"},{"backlink":"helm/helm-introduction.html#fig2.2.2","level":"2.2","list_caption":"Figure: Helm 架构图（来自 IBM Developer Blog）","alt":"Helm 架构图（来自 IBM Developer Blog）","nro":2,"url":"helm-architecture.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","label":"Helm 架构图（来自 IBM Developer Blog）","attributes":{},"skip":false,"key":"2.2.2"},{"backlink":"helm/quickstart.html#fig2.3.1","level":"2.3","list_caption":"Figure: Artifact Hub","alt":"Artifact Hub","nro":3,"url":"artifact-hub.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","label":"Artifact Hub","attributes":{},"skip":false,"key":"2.3.1"}]},"title":"Kubernetes Handbook - Kubernetes 实践手册","language":"zh-hans","links":{"sidebar":{"xcbeyond个人博客":"https://xcbeyond.cn/"}},"gitbook":"*","description":"Kubernetes Handbook - Kubernetes 实践手册"},"file":{"path":"helm/index.md","mtime":"2021-11-06T16:23:24.000Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-24T09:21:35.080Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Helm Charts","level":"2.4","depth":1,"next":{"title":"kube-apiserver 6443 端口占用","level":"3.1","depth":1,"path":"faq/kube-apiserver-port-occupy.md","ref":"faq/kube-apiserver-port-occupy.md","articles":[]},"previous":{"title":"快速入门","level":"2.3","depth":1,"path":"helm/quickstart.md","ref":"helm/quickstart.md","articles":[]},"dir":"ltr"},"config":{"plugins":["github","codesnippet","splitter","page-toc-button","image-captions","lightbox","editlink","back-to-top-button","-lunr","-search","search-plus","github-buttons@2.1.0","theme-default","favicon@^0.0.2","tbfed-pagefooter@^0.0.1","-highlight","prism","prism-themes","copy-code-button","donate"],"styles":{"website":"styles/website.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © <a href=https://xcbeyond.cn>xcbeyond.cn</a> 2021","modify_label":" Updated at ","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"github":{"url":"https://github.com/xcbeyond/kubernetes-handbook"},"editlink":{"label":"编辑本页","multilingual":false,"base":"https://github.com/xcbeyond/kubernetes-handbook/blob/main/"},"splitter":{},"donate":{"alipay":"https://xcbeyond.cn/images/qrcode/alipay.png","alipayText":"支付宝打赏","button":"赏","title":"","wechat":"https://xcbeyond.cn/images/qrcode/wechatpay.jpg","wechatText":"微信打赏"},"codesnippet":{},"fontsettings":{"theme":"white","family":"sans","size":2},"favicon":{"shortcut":"favicon.ico","bookmark":"favicon.ico"},"lightbox":{"jquery":true,"sameUuid":false},"page-toc-button":{},"back-to-top-button":{},"prism-themes":{},"github-buttons":{"repo":"xcbeyond/kubernetes-handbook","types":["star"],"size":"small"},"copy-code-button":{},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"showLevel":true,"styles":{"ebook":"styles/ebook.css","epub":"styles/epub.css","mobi":"styles/mobi.css","pdf":"styles/pdf.css","print":"styles/print.css","website":"styles/website.css"}},"search-plus":{},"image-captions":{"caption":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","variable_name":"_pictures"}},"theme":"default","author":"xcbeyond","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"helm/helm-introduction.html#fig2.2.1","level":"2.2","list_caption":"Figure: Helm","alt":"Helm","nro":1,"url":"helm.svg","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","label":"Helm","attributes":{},"skip":false,"key":"2.2.1"},{"backlink":"helm/helm-introduction.html#fig2.2.2","level":"2.2","list_caption":"Figure: Helm 架构图（来自 IBM Developer Blog）","alt":"Helm 架构图（来自 IBM Developer Blog）","nro":2,"url":"helm-architecture.png","index":2,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","label":"Helm 架构图（来自 IBM Developer Blog）","attributes":{},"skip":false,"key":"2.2.2"},{"backlink":"helm/quickstart.html#fig2.3.1","level":"2.3","list_caption":"Figure: Artifact Hub","alt":"Artifact Hub","nro":3,"url":"artifact-hub.png","index":1,"caption_template":"图 _PAGE_LEVEL_._PAGE_IMAGE_NUMBER_：_CAPTION_","label":"Artifact Hub","attributes":{},"skip":false,"key":"2.3.1"}]},"title":"Kubernetes Handbook - Kubernetes 实践手册","language":"zh-hans","links":{"sidebar":{"xcbeyond个人博客":"https://xcbeyond.cn/"}},"gitbook":"*","description":"Kubernetes Handbook - Kubernetes 实践手册"},"file":{"path":"helm/chart.md","mtime":"2021-11-24T09:20:55.527Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-11-24T09:21:35.080Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
