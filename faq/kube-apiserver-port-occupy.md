@@ -22,3 +22,7 @@ $ kill -9 <pid>
 # 重启 kubelet
 $ service kubelet restart
 ```
+
+## 参考
+
+1. [kubernetes: api-server and controller-manager cant start](https://stackoverflow.com/questions/48734524/kubernetes-api-server-and-controller-manager-cant-start)
