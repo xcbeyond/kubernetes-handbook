@@ -14,3 +14,4 @@
 ## FAQ
 
 - [kube-apiserver 6443 端口占用](faq/kube-apiserver-port-occupy.md)
+- [kubernetes证书过期问题](faq/the-kubernetes-certificate-expires.md)
