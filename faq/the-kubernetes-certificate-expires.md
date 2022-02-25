@@ -10,7 +10,7 @@
 
 1. 查看证书过期时间。
 
-   在 Master 节点上，执行 `sudo openssl x509 -in /etc/kubernetes/pki/apiserver.crt -noout -text |grep ' Not '` 或 `kubeadm alpha certs check-expiration` 命令，查看证书过期时间。
+   在 Master 节点上，执行 `kubeadm alpha certs check-expiration` 命令，查看证书过期时间。
 
 2. 备份证书。
 
