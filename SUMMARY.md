@@ -15,4 +15,4 @@
 
 - [kube-apiserver 6443 端口占用](faq/kube-apiserver-port-occupy.md)
 - [kubernetes证书过期问题](faq/the-kubernetes-certificate-expires.md)
-
+- [k8s calico 网络排错](faq/k8s-calico-network-troubleshooting.md)
